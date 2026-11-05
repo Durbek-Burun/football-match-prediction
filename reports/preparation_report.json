@@ -1,0 +1,36 @@
+{
+  "source_sha256": {
+    "players_with_team_stats_2024_2025.csv": "9960db9d8bdf06d226eae728d18c0db478aac28cebadb363a44cacfce52be9bc",
+    "match_player_base_dataset_2024_2025.csv": "26f1b97ebcefd8b0271215204447ffe1d169ed113a4013a5880d79788100d073",
+    "team_map_2024_2025.csv": "6af0764908a3b343a5ab1a30fbd4b0e617980a40f725097289528146bb007ed1",
+    "team_strength_base_2024_2025.csv": "e7787b7c1b066cf7e8eace926fe70ffd4f308d75391fce52005f0d658f170348"
+  },
+  "player_rows": 2854,
+  "teams": 96,
+  "mapping_entries": 96,
+  "player_missing_values": {
+    "Gls": 0,
+    "Ast": 0,
+    "xG": 0,
+    "Age": 8,
+    "Min": 0
+  },
+  "matches_total": 1941,
+  "matches_retained": 1752,
+  "matches_excluded": 189,
+  "excluded_by_competition": {
+    "UEFA Champions League": 189
+  },
+  "retained_class_counts": {
+    "Home Win": 736,
+    "Away Win": 579,
+    "Draw": 437
+  },
+  "checks": {
+    "mapped_player_teams_match": true,
+    "team_means_match_saved_strength": true,
+    "match_features_match_saved_dataset": true,
+    "same_complete_rows_for_13_and_24_features": true,
+    "unique_match_ids": true
+  }
+}

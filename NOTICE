@@ -1,0 +1,22 @@
+Source attribution
+==================
+
+This portfolio implementation is based on the 2026 bachelor thesis:
+"Применение алгоритмов машинного обучения для анализа и прогнозирования
+результатов футбольных матчей" by Эркинов Дурбек Кахрамон угли
+(Durbek Erkinov), Lomonosov Moscow State University, Tashkent branch.
+
+The project reconstructs the method and code fragments documented in that work,
+with data validation against the subsequently supplied original project archive,
+football_match_prediction_project.rar.
+Repository organization, CLI, validation, reporting and persistence integration
+were prepared for this portfolio. See docs/PROVENANCE.md for the boundaries.
+
+The GitHub-ready ZIP does not include the thesis PDF, original datasets, or model
+weights. Local prepared data and trained weights are excluded from Git. The
+repository includes measured aggregate evaluation reports and charts.
+Dependencies retain their own licenses. No dataset redistribution rights or
+third-party license grants are asserted by this NOTICE.
+
+No open-source license has been selected for this repository by its owner.
+This NOTICE provides attribution and does not grant an open-source license.

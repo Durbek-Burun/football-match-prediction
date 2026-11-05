@@ -1,0 +1,7 @@
+# Direct dependencies. requirements-lock.txt records the verified local run.
+# The historical thesis environment is still unknown.
+catboost
+numpy
+pandas
+scikit-learn
+matplotlib

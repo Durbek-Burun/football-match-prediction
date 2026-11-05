@@ -1,0 +1,193 @@
+{
+  "accuracy": 0.4985754985754986,
+  "classification_report": {
+    "Away Win": {
+      "precision": 0.5,
+      "recall": 0.5517241379310345,
+      "f1-score": 0.5245901639344263,
+      "support": 116.0
+    },
+    "Draw": {
+      "precision": 0.2857142857142857,
+      "recall": 0.1590909090909091,
+      "f1-score": 0.20437956204379562,
+      "support": 88.0
+    },
+    "Home Win": {
+      "precision": 0.5574712643678161,
+      "recall": 0.6598639455782312,
+      "f1-score": 0.6043613707165109,
+      "support": 147.0
+    },
+    "accuracy": 0.4985754985754986,
+    "macro avg": {
+      "precision": 0.4477285166940339,
+      "recall": 0.4568929975333916,
+      "f1-score": 0.44444369889824425,
+      "support": 351.0
+    },
+    "weighted avg": {
+      "precision": 0.4703451082761428,
+      "recall": 0.4985754985754986,
+      "f1-score": 0.47771789735491327,
+      "support": 351.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      64,
+      20,
+      32
+    ],
+    [
+      29,
+      14,
+      45
+    ],
+    [
+      35,
+      15,
+      97
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "diff_avg_age",
+      "importance": 8.337918966776991
+    },
+    {
+      "feature": "diff_avg_xg",
+      "importance": 7.866786317126326
+    },
+    {
+      "feature": "diff_avg_assists",
+      "importance": 6.669076515359206
+    },
+    {
+      "feature": "away_avg_age",
+      "importance": 6.473777312078008
+    },
+    {
+      "feature": "home_avg_age",
+      "importance": 6.2655111934441345
+    },
+    {
+      "feature": "diff_avg_goals",
+      "importance": 5.415753802055132
+    },
+    {
+      "feature": "diff_avg_xag",
+      "importance": 5.24092455869789
+    },
+    {
+      "feature": "diff_avg_matches_played",
+      "importance": 4.822952971004477
+    },
+    {
+      "feature": "away_avg_matches_played",
+      "importance": 3.863570119846462
+    },
+    {
+      "feature": "home_avg_goals",
+      "importance": 3.7758260418208054
+    },
+    {
+      "feature": "home_avg_assists",
+      "importance": 3.6739822334049097
+    },
+    {
+      "feature": "home_avg_minutes",
+      "importance": 3.617456114112687
+    },
+    {
+      "feature": "home_avg_xag",
+      "importance": 3.567623470138294
+    },
+    {
+      "feature": "home_avg_matches_played",
+      "importance": 3.472037436501055
+    },
+    {
+      "feature": "away_avg_xg",
+      "importance": 3.332105807783021
+    },
+    {
+      "feature": "away_avg_minutes",
+      "importance": 3.3114589722432815
+    },
+    {
+      "feature": "home_avg_xg",
+      "importance": 3.1554903475518175
+    },
+    {
+      "feature": "away_avg_assists",
+      "importance": 3.0946026013782557
+    },
+    {
+      "feature": "away_avg_goals",
+      "importance": 3.0066942563810537
+    },
+    {
+      "feature": "diff_avg_starts",
+      "importance": 2.8465055804114403
+    },
+    {
+      "feature": "diff_avg_minutes",
+      "importance": 2.8348753881756297
+    },
+    {
+      "feature": "away_avg_xag",
+      "importance": 2.8075581724043457
+    },
+    {
+      "feature": "away_avg_starts",
+      "importance": 1.2805216354847373
+    },
+    {
+      "feature": "home_avg_starts",
+      "importance": 1.2669901858200616
+    }
+  ],
+  "train_size": 1401,
+  "test_size": 351,
+  "features": [
+    "home_avg_goals",
+    "home_avg_assists",
+    "home_avg_xg",
+    "home_avg_xag",
+    "home_avg_age",
+    "home_avg_minutes",
+    "home_avg_matches_played",
+    "home_avg_starts",
+    "away_avg_goals",
+    "away_avg_assists",
+    "away_avg_xg",
+    "away_avg_xag",
+    "away_avg_age",
+    "away_avg_minutes",
+    "away_avg_matches_played",
+    "away_avg_starts",
+    "diff_avg_goals",
+    "diff_avg_assists",
+    "diff_avg_xg",
+    "diff_avg_xag",
+    "diff_avg_age",
+    "diff_avg_minutes",
+    "diff_avg_matches_played",
+    "diff_avg_starts"
+  ],
+  "class_order": [
+    "Away Win",
+    "Draw",
+    "Home Win"
+  ],
+  "run_date": "2026-11-03",
+  "description": "Unmodified supplied archive src/train_model.py; 24 features; CatBoost random_seed=42.",
+  "versions": {
+    "catboost": "1.2.10",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  }
+}

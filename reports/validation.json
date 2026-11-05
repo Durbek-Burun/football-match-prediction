@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-11-03",
+  "python_files_compiled": 6,
+  "reloaded_model_predictions_equal_saved_test_predictions": true,
+  "reloaded_probabilities_equal_saved_probabilities": true,
+  "probabilities_sum_to_one": true,
+  "unknown_team_rejected": true,
+  "duplicate_team_strength_rejected": true,
+  "infinite_team_feature_rejected": true,
+  "all_missing_team_feature_rejected": true,
+  "eight_missing_ages_preserved_until_columnwise_aggregation": true,
+  "reconstructed_strength_matches_saved_bundle": true,
+  "original_and_thesis_train_test_match_ids_identical": true,
+  "original_model_reload_reproduces_reported_accuracy": true,
+  "original_script_sha256": {
+    "config.py": "8d38a8b1c330ff0a3a35729e33a7106c7bb742b67ea5c10d238d20c682dc283a",
+    "list_teams.py": "53da3b3b954182e6cc70ace39724ff29e21019ef56966c49b39e291a42131847",
+    "predict_match.py": "4dd3c625e8c1a9f4a8ddd0b66616b92fae7f170914ce417074b873f7977f7357",
+    "train_model.py": "d48b92fa3506cd0593a35d66fdc987c2200cd306675c8c73dd60b1ed12db48f0",
+    "utils.py": "19e2fd0ed47b01a07129aac7ad60a2b4a69bd3dd99aba195aed9c35f7bda6813"
+  }
+}

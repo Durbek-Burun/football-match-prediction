@@ -1,0 +1,10 @@
+{
+  "home_team": "Arsenal FC",
+  "away_team": "Chelsea FC",
+  "prediction": "Home Win",
+  "probabilities": {
+    "Away Win": 0.13576466381734162,
+    "Draw": 0.15170796961090371,
+    "Home Win": 0.7125273665717546
+  }
+}
