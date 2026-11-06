@@ -159,4 +159,3 @@ the public package. See [NOTICE](NOTICE).
 
 Author of the source thesis: **Эркинов Дурбек Кахрамон угли (Durbek Erkinov)**,
 Lomonosov Moscow State University, Tashkent branch, 2026.
-The repository is prepared locally; it has not been published to GitHub.
